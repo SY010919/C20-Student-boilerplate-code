@@ -19,7 +19,8 @@ function setup() {
     restitution: 0.95,
     frictionAir:0.01
   }
-   
+   ball=Bodies.circle(200,100,20, ball_options);
+  World.add(World.ball);
    var ground_options ={
      isStatic: true
    };
